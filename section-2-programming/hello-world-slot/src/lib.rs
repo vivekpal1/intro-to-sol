@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 
-declare_id!("YourProgramIDHere");
+declare_id!("INSERT_YOUR_PROGRAM_ID_HERE");
 
 #[program]
 mod hello_world {

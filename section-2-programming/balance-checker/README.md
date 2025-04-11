@@ -1,24 +1,40 @@
-# Demo 2: Check Account Balance with `@anza-xyz/kit` in Next.js
+# Solana Balance Checker Demo
 
-## Objective
-Build a simple Next.js app to check a Solana account's balance on devnet.
+A simple Next.js app that checks Solana account balances on the devnet network.
 
-## Setup
-1. **Install Dependencies**:
+## What This App Does
+
+This app lets you:
+- Enter a Solana wallet address
+- Check its balance on Solana devnet
+- See the result in SOL (not lamports)
+
+## How It Works
+
+1. Uses `@solana/web3.js` to connect to Solana's devnet
+2. Converts the input address to a Solana PublicKey
+3. Queries the account balance
+4. Converts from lamports to SOL (1 SOL = 1,000,000,000 lamports)
+
+## Getting Started
+
 ```bash
-   npm install
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
 ```
-2. **Run**:
-```bash
-   npm run dev
-```
-3. **Open in Browser**:
 
-    Visit http://localhost:3000.
-    Enter a Solana devnet address (e.g., your Phantom wallet address).
-    Click "Check Balance" to see the SOL balance.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Troubleshooting
+## Try It Out
 
-- Ensure the address is valid (58 characters, base58-encoded).
-- Check the console for errors if the balance doesn’t load.
+1. Enter a Solana wallet address (e.g., your Phantom wallet address)
+2. Click "Check Balance"
+3. See the balance in SOL
+
+## Learn More
+
+- [Solana Web3.js Documentation](https://solana-labs.github.io/solana-web3.js/)
+- [Solana Developer Resources](https://solana.com/developers)

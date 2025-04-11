@@ -1,25 +1,21 @@
-# Demo 3: Deploy a "Hello, World!" Program with Current Slot Using Anchor
+# Solana "Hello World" with Current Slot
 
-## Objective
-Deploy a Rust program to devnet that logs "Hello, World! Current slot is [slot number]".
+A simple Solana program that prints "Hello, World!" and the current slot number using Anchor framework.
 
-## Steps
-1. **Go to Solana Playground**:
-   - Visit [Solana Playground](https://beta.solpg.io/).
-2. **Create a New Project**:
-   - Click "Create a new project" → select "Anchor (Rust)".
-3. **Update the Program**:
-   - Open `lib.rs` and replace its content with the code in `src/lib.rs`.
-   - Replace `"YourProgramIDHere"` with a unique ID (or use the default).
-4. **Compile and Deploy**:
-   - Click "Build" to compile.
-   - Click "Deploy" to send to devnet.
-5. **Run the Client Script**:
-   - Open `client.ts` and replace its content with the code in `src/client.ts`.
-   - Click "Run" to execute.
-6. **Check Logs**:
-   - View the transaction logs for the message, e.g., "Hello, World! Current slot is 123456789".
+## Steps (Using Solana Playground)
 
-## Troubleshooting
-- Ensure Solana Playground is set to devnet.
-- Fix typos in `lib.rs` if the build fails.
+1. Go to [Solana Playground](https://beta.solpg.io/)
+2. Create a new project (choose "Anchor")
+3. Copy the code from `src/lib.rs` to your project's lib.rs
+4. Copy the code from `src/client.ts` to your project's client.ts
+5. Click "Build" to compile
+6. Click "Deploy" to deploy to devnet
+7. Click "Run" to execute the client
+
+## What This Shows
+
+This example demonstrates:
+- Creating a basic Solana program with Anchor
+- Accessing the current slot number
+- Deploying to Solana devnet
+- Calling the program and viewing its output

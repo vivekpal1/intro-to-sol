@@ -1,0 +1,40 @@
+{
+  "name": "Swinburne Solana Workshop NFT",
+  "symbol": "SWIN",
+  "description": "An NFT created during the Swinburne Solana Workshop. This is a commemorative token for workshop participants.",
+  "image": "https://gateway.lighthouse.storage/ipfs/bafkreiabnti5sfv44gflcdkuvumordzflq7xue5nwf75lnififpj7z45ii",
+  "external_url": "https://swinburne.edu.au",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Workshop"
+    },
+    {
+      "trait_type": "Level",
+      "value": "Beginner"
+    },
+    {
+      "trait_type": "Category",
+      "value": "Education"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2023"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://gateway.lighthouse.storage/ipfs/bafkreiabnti5sfv44gflcdkuvumordzflq7xue5nwf75lnififpj7z45ii",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "FhZCpcocowqBV8K6nk93YLZYaAQwsmcEwX8HrKPGD1X",
+        "share": 100
+      }
+    ]
+  }
+} 
