@@ -12,6 +12,11 @@ Access the slides here: https://pitch.com/v/solana-fundamentals-em5isu
   2. Programming on Solana (45 min)
   3. Tokens and NFTs (45 min)
 
+# Resources
+- [Solana Docs](https://solana.com/developers/docs)
+- [Anchor Docs](https://anchor-docs.projectserum.com/)
+- [Anzay Docs](https://docs.anza.xyz/)
+
 ## Prerequisites
 - A computer with internet access.
 - Google Chrome or Firefox with the Phantom wallet extension installed ([Phantom Wallet](https://phantom.app/)).
