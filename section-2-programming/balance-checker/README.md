@@ -11,8 +11,8 @@ This app lets you:
 
 ## How It Works
 
-1. Uses `@solana/web3.js` to connect to Solana's devnet
-2. Converts the input address to a Solana PublicKey
+1. Uses `@anza-xyz/kit` to connect to Solana's devnet
+2. Converts the input address to a Solana Address
 3. Queries the account balance
 4. Converts from lamports to SOL (1 SOL = 1,000,000,000 lamports)
 
@@ -36,5 +36,5 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Learn More
 
-- [Solana Web3.js Documentation](https://solana-labs.github.io/solana-web3.js/)
+- [Anza Kit Documentation](https://solana-kit-docs.vercel.app/docs)
 - [Solana Developer Resources](https://solana.com/developers)

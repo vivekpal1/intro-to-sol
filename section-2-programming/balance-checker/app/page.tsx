@@ -1,6 +1,6 @@
 "use client";
 
-import { Connection, PublicKey, clusterApiUrl } from "@solana/web3.js";
+import { Address, createSolanaRpc } from "@anza-xyz/kit";
 import { useState } from "react";
 
 export default function Home() {
@@ -18,16 +18,16 @@ export default function Home() {
       }
 
       // Create connection to Solana devnet
-      const connection = new Connection(clusterApiUrl("devnet"), "confirmed");
+      const rpc = createSolanaRpc("https://api.devnet.solana.com");
       
-      // Create a PublicKey from the address
-      const publicKey = new PublicKey(address);
-      
-      // Get account balance (in lamports)
-      const lamports = await connection.getBalance(publicKey);
+      // Get account balance using the new kit API
+      const balanceResult = await rpc.getBalance({
+        address: new Address(address),
+        commitment: "confirmed",
+      }).send();
       
       // Convert lamports to SOL (1 SOL = 1,000,000,000 lamports)
-      setBalance(lamports / 1_000_000_000);
+      setBalance(Number(balanceResult.value) / 1_000_000_000);
     } catch (error) {
       console.error("Error:", error);
       setError("Invalid address or network error");
