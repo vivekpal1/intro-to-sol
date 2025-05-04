@@ -1,4 +1,4 @@
-# Swinburne Solana Workshop NFT Minter
+# Intro to Solana Workshop NFT Minter
 
 For this workshop, we'll focus on the simplest approach - minting NFTs directly in Solana Playground and distributing them to participants.
 

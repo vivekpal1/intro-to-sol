@@ -1,6 +1,6 @@
-# Swinburne Solana Hackathon 2025 Workshop
+# Intro to Solana Workshop
 
-Welcome to the Swinburne Solana Hackathon 2025 Workshop! This repository contains all the code and instructions for the hands-on demos in the 2-hour workshop.
+Welcome to the Intro to Solana Workshop! This repository contains all the code and instructions for the hands-on demos in the 2-hour workshop.
 
 Access the slides here: https://pitch.com/v/solana-fundamentals-em5isu
 

@@ -1,9 +1,9 @@
 {
-  "name": "Swinburne Solana Workshop NFT",
-  "symbol": "SWIN",
-  "description": "An NFT created during the Swinburne Solana Workshop. This is a commemorative token for workshop participants.",
+  "name": "Intro to Solana Workshop NFT",
+  "symbol": "SOL",
+  "description": "An NFT created during the Intro to Solana Workshop. This is a commemorative token for workshop participants.",
   "image": "https://gateway.lighthouse.storage/ipfs/bafkreiabnti5sfv44gflcdkuvumordzflq7xue5nwf75lnififpj7z45ii",
-  "external_url": "https://swinburne.edu.au",
+  "external_url": "https://solana.com",
   "attributes": [
     {
       "trait_type": "Type",

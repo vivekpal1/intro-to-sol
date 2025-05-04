@@ -1,5 +1,4 @@
 import { createMint } from '@solana/spl-token';
-import { Connection, Keypair } from '@solana/web3.js';
 import * as anchor from "@coral-xyz/anchor";
 
 async function createToken() {
